@@ -1,0 +1,131 @@
+.frist{
+    background-image:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);;
+    height: 30px;
+}
+.frist3{
+    
+    margin: auto;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 255, 234);
+    border-radius: 20px;
+    margin-top: 20px;
+
+    height: 70px;
+}
+ul{
+    display: inline-block;
+    text-align:left;
+    margin-top: 10px;
+}
+.frist4{
+    display: flex;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    width: auto;
+    height: 270px;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid black;
+
+}
+.frist5{
+    border: 3px solid green;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    height: 60px;
+    width: 400px;
+}
+.frist6{
+    display: flex;
+    background-color: green;
+    margin-top: 20px;
+    width: auto;
+    height: 40px; 
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); 
+}
+.frist7{
+    display: flex;
+    height: 270px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red, orange, yellow, blue, indigo, violet);
+}
+.frist8{
+    border-radius: 20px;
+    border: 3px solid red;
+    background-color: yellow;
+    height: 150px;
+    width: 250px;
+    margin:50px;
+    text-align: center;
+    color: red;
+    
+}
+.frist9{
+    display: flex;
+    background-color:red;
+    margin-top: 35px;
+    
+    height: 40px; 
+    text-align: center;
+    justify-content: center;
+    
+}
+.frist10{
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-start;
+    justify-content: start;
+    
+}
+.frist11{
+    box-sizing: border-box;
+    background-color: green;
+    width: 400px;
+    
+    font-size: 20px;
+    text-align: center;
+    
+}
+.frist12{
+    margin-top: 20px;
+    display:flex;
+    background-color: yellow;
+    width: 76.3em;
+    height:100px ;
+    position: relative;
+    bottom: 120px;
+}
+.frist13{
+    box-sizing: border-box;
+    background-color:black;
+    width: 275px;
+    height: 200px;
+    position: relative;
+    left: 28px;
+}
+.frist14{
+    display: flex;
+    background-color: springgreen;
+    justify-content: center;
+    position: relative;
+    bottom:110px ;
+    border-radius: 20px;
+}
+.frist15{
+    display: inline-block;
+    font-size: 25px;
+    
+}
