@@ -1,0 +1,35 @@
+@media screen and (max-width: 500px) {
+    .responsive-header/* only for responsive styling */
+    {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row-reverse;
+        margin-left: 20px;
+    }
+    .responsive-header .heading-container {
+        justify-content: flex-start;
+        margin: 15px;
+    }
+    .responsive-header .heading-container .tasks-heading {
+        font-size: 38px;
+    }
+    .responsive-header .light-heading,
+    .responsive-header .heading-container hr {
+        display: none;
+    }
+    .responsive-header .back-container {
+        width: 15%;
+    }
+    .back-container .function-icon {
+        padding: 2px;
+    }
+    .responsive-header .back-container .function-icon .fa-arrow-left {
+        font-size: 17px;
+    }
+    .body-container .todo-card {
+        margin: 20px auto;
+        width: 62%;
+        border-width: 1px;
+        height: 370px;
+    }
+}
