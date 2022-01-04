@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 110px auto;
+    justify-content: center;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tasks-heading {
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(48, 48, 48);
+}
+
+.light-heading {
+    color: gray;
+    font-weight: 100;
+}
+
+.function-icon {
+    background-color: #e75b4c;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.function-icon .add {
+    font-weight: 300;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 15%;
+}
+
+.right-container p {
+    font-size: 28px;
+    font-weight: 300;
+    position: relative;
+    left: 20px;
+    text-align: center;
+}
+
+.todo-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.todo-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 18%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #e75b4c;
+    padding: 10px;
+    height: 300px;
+    justify-content: flex-start;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 2px lightgray;
+}
+
+.todo-heading {
+    display: inline-block;
+}
+
+.todo-heading h2 {
+    color: #e75b4c;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.todo-heading hr {
+    width: 150%;
+    margin-top: 12px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-bottom: 30px;
+}
+
+.todo-card p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 8px auto;
+    margin-left: 8px;
+}
+
+.todo-card .task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.complete-task {
+    color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-decoration-line: line-through;
+}
+
+.pending-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -26px;
+}
+
+.pending-task #pending[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.pending-task p {
+    font-size: 20px;
+    color: rgb(60, 60, 60);
