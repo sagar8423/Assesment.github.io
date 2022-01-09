@@ -1,0 +1,52 @@
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    
+    margin-top: 5px;
+    
+    
+}
+.item1{
+    transition: width 3s;
+}
+.item1:hover{
+       width:300px;
+    }
+    .item2{
+        transition: width 3s;
+    }
+    .item2:hover{
+           width:300px;
+           height: 300px;
+        }
+    .item3{
+        transition: width 3s;
+        transition-timing-function: linear;
+    }
+    .item3:hover{
+        width:300px;
+    }
+    .item4{
+        transition: width 3s;
+        transition-timing-function: ease;
+    }
+    .item4:hover{
+        width: 300px;
+    }
+body{
+    background-color: greenyellow;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: -40px;
+    border: 2px solid red;
+}
+a{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+
+
+}

@@ -1,0 +1,195 @@
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 50px
+
+}
+.container{
+    margin: 50px;
+
+}
+.item1{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew;
+}
+@keyframes skew{
+    0% {
+        transform: skewX(
+    20deg);
+    }
+    100% {
+        transform: skewX(
+    -20deg);
+    }
+}
+.item2{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew;
+}
+@keyframes skew{
+    0% {
+        transform: skewX(
+    20deg);
+    }
+    100% {
+        transform: skewX(
+    -20deg);
+    }
+}
+.item3{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew;
+}
+@keyframes skew{
+    0% {
+        transform: skewX(
+    20deg);
+    }
+    100% {
+        transform: skewX(
+    -20deg);
+    }
+}
+.item4{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew1;
+}
+@keyframes skew1{
+    0% {
+        transform: skewY(
+    30deg);
+    }
+    100% {
+        transform: skewY(
+    -30deg);
+    }
+}
+.item5{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew1;
+}
+@keyframes skew1{
+    0% {
+        transform: skewY(
+    30deg);
+    }
+    100% {
+        transform: skewY(
+    -30deg);
+    }
+}.item6{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew1;
+}
+@keyframes skew1{
+    0% {
+        transform: skewY(
+    30deg);
+    }
+    100% {
+        transform: skewY(
+    -30deg);
+    }
+}
+.item7{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew2;
+}
+@keyframes skew2{
+    0% {
+        transform: rotate(
+    0deg);
+    }
+    100% {
+        transform: rotate(
+    360deg);
+    }
+}
+.item8{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew2;
+}
+@keyframes skew2{
+    0% {
+        transform: rotate(
+    0deg);
+    }
+    100% {
+        transform: rotate(
+    360deg);
+    }
+}
+.item9{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: skew2;
+}
+@keyframes skew2{
+    0% {
+        transform: rotate(
+    0deg);
+    }
+    100% {
+        transform: rotate(
+    360deg);
+    }
+}
+body {
+    background-color: yellow;
+}
